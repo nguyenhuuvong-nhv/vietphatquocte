@@ -240,3 +240,8 @@ jQuery(document).ready(function($) {
 	siteDatePicker();
 
 });
+
+function scrollToDiv(divId) {
+	const element = document.getElementById(divId);
+	element.scrollIntoView({ behavior: 'smooth' });
+  }
