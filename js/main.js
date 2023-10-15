@@ -243,9 +243,6 @@ jQuery(document).ready(function($) {
 
 function scrollToDiv(divId) {
 	const element = document.getElementById(divId);
-	//element.scrollTop = element.scrollHeight;
-	//element.scrollIntoView({ behavior: 'smooth' });
-
 	var offset = element.offsetTop;
   	window.scrollTo({
     top: offset,
