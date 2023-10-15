@@ -3,8 +3,11 @@ body {
   line-height: 1.7;
   color: #4d4d4d;
   font-weight: 300;
-  font-size: 1rem; 
-  -webkit-overflow-scrolling: touch;}
+  font-size: 1rem;}
+
+  html {
+    scroll-behavior: smooth;
+  }
 
 ::-moz-selection {
   background: #000;
